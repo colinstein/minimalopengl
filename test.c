@@ -1,4 +1,5 @@
-// cc `pkg-config --cflags glfw3` -o test test.c `pkg-config --static --libs glfw3`
+// brew install glfw3
+// clang `pkg-config --cflags glfw3` -o test test.c `pkg-config --static --libs glfw3`
 #include <stdio.h>
 #include <stdlib.h>
 #define GLFW_INCLUDE_GLCOREARB
